@@ -18,7 +18,7 @@ code_ask_and_generate.py — interactive CLI (ask a question → get code)
 Requirements
 
 Python 3.9–3.11 recommended
-
+![Confusion Matrix Heatmap](cg_confusion_matrix.png)
 Packages:
 
 pip install --upgrade transformers torch sentencepiece
@@ -123,7 +123,7 @@ bigcode/starcoder2-3b
 deepseek-ai/deepseek-coder-1.3b-instruct
 
 Larger models generally mean better code but more RAM/VRAM.
-![Confusion Matrix Heatmap](cg_confusion_matrix.png)
+
 Troubleshooting
 
 Q: I see “Using a device_map requires accelerate”
