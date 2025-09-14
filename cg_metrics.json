@@ -1,0 +1,24 @@
+{
+  "created_utc": "2025-09-14T17:46:58.878875Z",
+  "source_csv": "C:\\Users\\sagni\\Downloads\\Code Generator\\archive\\train.csv",
+  "labels_source": "auto:lang_from_code",
+  "text_column_used": "instruction",
+  "label_column_used": "auto:lang_from_code",
+  "sizes": {
+    "train": 12702,
+    "valid": 2723,
+    "test": 2723
+  },
+  "test_metrics": {
+    "accuracy": 0.5094,
+    "macro_precision": 0.2709,
+    "macro_recall": 0.7493,
+    "macro_f1": 0.2407
+  },
+  "artifacts": {
+    "model_path": "C:\\Users\\sagni\\Downloads\\Code Generator\\cg_model.joblib",
+    "label_map_path": "C:\\Users\\sagni\\Downloads\\Code Generator\\cg_label_map.json",
+    "classification_report_txt": "C:\\Users\\sagni\\Downloads\\Code Generator\\cg_classification_report.txt",
+    "predictions_csv": "C:\\Users\\sagni\\Downloads\\Code Generator\\cg_predictions_test.csv"
+  }
+}

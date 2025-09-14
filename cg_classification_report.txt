@@ -1,0 +1,15 @@
+              precision    recall  f1-score   support
+
+        bash       0.03      1.00      0.05         4
+         css       0.50      0.36      0.42       240
+        html       0.13      0.94      0.23        16
+        java       0.01      1.00      0.02         2
+  javascript       0.04      0.43      0.08         7
+      matlab       0.01      1.00      0.02         5
+      python       0.93      0.52      0.67      2236
+         sql       0.74      0.50      0.60       206
+  typescript       0.05      1.00      0.09         7
+
+    accuracy                           0.51      2723
+   macro avg       0.27      0.75      0.24      2723
+weighted avg       0.86      0.51      0.63      2723

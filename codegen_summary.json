@@ -1,0 +1,47 @@
+{
+  "dataset_name": "codegen_single_csv",
+  "source_csv": "C:\\Users\\sagni\\Downloads\\Code Generator\\archive\\train.csv",
+  "created_utc": "2025-09-14T17:31:51.868262Z",
+  "columns_used": {
+    "instruction_column_used": "instruction",
+    "input_column_used": "input",
+    "output_column_used": "output"
+  },
+  "sizes": {
+    "train": 18612
+  },
+  "stats": {
+    "num_examples": 18612,
+    "instruction_chars": {
+      "min": 21,
+      "max": 7755,
+      "mean": 98.19,
+      "median": 83.0
+    },
+    "input_chars": {
+      "min": 1,
+      "max": 800,
+      "mean": 29.24,
+      "median": 14.0
+    },
+    "output_chars": {
+      "min": 1,
+      "max": 20778,
+      "mean": 465.94,
+      "median": 260.0
+    },
+    "output_lines": {
+      "min": 1,
+      "max": 542,
+      "mean": 16.88,
+      "median": 11.0
+    }
+  },
+  "schema": {
+    "fields": [
+      "instruction",
+      "input",
+      "output"
+    ]
+  }
+}
